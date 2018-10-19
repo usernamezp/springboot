@@ -22,7 +22,7 @@ public class StudentController {
 //        System.out.println("进入Controller*****************");
         List<Student> students = service.selectAll();
         request.setAttribute("admin", students);
-//        System.out.println("走出Controller=======================");
+//        System.out.println("走出Controller======----=======");
         return "index";
     }
 
