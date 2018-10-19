@@ -19,7 +19,7 @@ public class StudentController {
     @LogAnnotation(name = "自定义的注解")
     @RequestMapping("/getAll")
     public String getAll(HttpServletRequest request) {
-//        System.out.println("进入Controller..................");
+//        System.out.println("进入Controller*****************");
         List<Student> students = service.selectAll();
         request.setAttribute("admin", students);
 //        System.out.println("走出Controller.......................");

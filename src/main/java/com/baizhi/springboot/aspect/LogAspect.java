@@ -21,14 +21,14 @@ public class LogAspect {
     //    环绕增强
     @Around(value = "pt()")
     public Object ss(ProceedingJoinPoint proceedingJoinPoint) {
-        System.out.println("进来。。。。。。。。。。。。。。。。。");
+        System.out.println("进来++++++++++++++++++++");
         Object proceed = null;
         try {
             proceed = proceedingJoinPoint.proceed();
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
-        System.out.println("出去，，，，，，，，，，，，，，，，，，，，， ");
+        System.out.println("出去------------------------");
         return proceed;
     }
 }
