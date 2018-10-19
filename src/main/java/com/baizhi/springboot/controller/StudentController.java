@@ -25,6 +25,4 @@ public class StudentController {
 //        System.out.println("走出Controller=====555555555======");
         return "index";
     }
-
-
 }
