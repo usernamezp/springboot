@@ -28,7 +28,7 @@ public class LogAspect {
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
-        System.out.println("出去，，，，，，，，，，，，，，，，，，，，，");
+        System.out.println("出去，，，，，，，，，，，，，，，，，，，，， ");
         return proceed;
     }
 }
